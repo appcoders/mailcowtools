@@ -1,0 +1,11 @@
+{
+  "name": "mailcowaddmailboxes",
+  "version": "1.0.0",
+  "main": "addMailboxes.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^6.0.0",
+    "csvtojson": "^2.0.10"
+  }
+}
