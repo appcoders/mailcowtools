@@ -1,6 +1,6 @@
 ## Mailcow - simple tools that use the mailcow API
 
-Currently there a two tools addMailboxes and addSyncJobs (soon). 
+Currently there a two tools [addMailboxes](https://github.com/appcoders/mailcowtools/tree/master/addMailboxes) and addSyncJobs (soon). 
 I made them for my own use and maybe it is useful to someone else. 
 
 I am not affiliated with mailcow in any way. 
