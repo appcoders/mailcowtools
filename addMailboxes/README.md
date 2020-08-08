@@ -10,8 +10,10 @@ Support mailcow it is great :-) !
 ### What you need
 Just create a CSV file (comma-separated) with four columns eg.
 
+```
 "joe@example.com","Joe Example","A-Very-Secret-Password",500
 "jane@example.com","Jane Example","A-Even-More-Secret-Password",900
+```
 
 You MUST not use a header line.
 
@@ -36,10 +38,10 @@ For example:
 node addMailboxes.js -i ./myimportlist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -e -s https://mailcow.example.com
 ```
 
-or if you use precompiled binaries:
+or if you use [precompiled binaries](https://github.com/appcoders/mailcowtools/releases):
 
 ```
-addMailboxes-{platform} -i ./myimportlist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -e -s https://mailcow.example.com
+addMailboxes-{version}-{platform} -i ./myimportlist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -e -s https://mailcow.example.com
 ```
 
 Use -e to stop on the first error that occurs.
@@ -53,4 +55,4 @@ yarn install
 
 ## Pre-built binaries 
 
-I build pre-built with [pkg](https://github.com/vercel/pkg#readme) you can also download here. 
+I build pre-built with [pkg](https://github.com/vercel/pkg#readme) you can also download [here](https://github.com/appcoders/mailcowtools/releases). 
