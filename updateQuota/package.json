@@ -1,0 +1,10 @@
+{
+  "name": "mailcowupdatequota",
+  "version": "1.0.0",
+  "main": "updateQuota.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^6.0.0"
+  }
+}
