@@ -25,6 +25,8 @@ const { program } = require('commander');
 const axios = require('axios');
 const process = require('process');
 const csvtojsonV2 = require("csvtojson/v2");
+const version = require('./package').version;
+
 
 let axiosInstance = null;
 
@@ -79,7 +81,8 @@ const addMailboxes = async (mailboxInfos) => {
 }
 
 const main = async () => {
-  program.version('1.0.0');
+  program.version(version);
+  
   program
     .requiredOption('-i, --importfile <importfile>', 'Path to import file CSV')
     .requiredOption('-s, --serverurl <serverurl>', 'URL of mailcow server : https://mailcow.example.org')
