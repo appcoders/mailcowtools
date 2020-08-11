@@ -34,7 +34,7 @@ node updateQuota.js -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -s https://mailcow.example
 or if you use [precompiled binaries](https://github.com/appcoders/mailcowtools/releases):
 
 ```
-updateQuota-{version}-{platform} -i ./myimportlist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -e -s https://mailcow.example.com -q 500 -d example.com
+updateQuota-{version}-{platform} -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -s https://mailcow.example.com -q 500 -d example.com
 ```
 
 Use -e to stop on the first error that occurs.
