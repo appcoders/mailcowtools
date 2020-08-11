@@ -2,8 +2,8 @@
 
 Currently there a the following tools:
 
-- [addMailboxes](https://github.com/appcoders/mailcowtools/tree/master/addMailboxes)
-- [updateQuota](https://github.com/appcoders/mailcowtools/tree/master/updateQuota)
+- [addMailboxes](https://github.com/appcoders/mailcowtools/releases/tag/addmailboxes-1.0.1)
+- [updateQuota](https://github.com/appcoders/mailcowtools/releases/tag/updatequota-1.0.0)
 - addSyncJobs (soon). 
 
 I made them for my own use and maybe they are useful to someone else. 
