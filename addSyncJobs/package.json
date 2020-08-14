@@ -1,0 +1,11 @@
+{
+  "name": "mailcowaddsyncjobs",
+  "version": "1.0.0",
+  "main": "addSyncJobs.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^6.0.0",
+    "csvtojson": "^2.0.10"
+  }
+}
