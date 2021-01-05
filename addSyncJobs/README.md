@@ -54,13 +54,13 @@ Options:
 For example:
 
 ```
-node addSyncJobs.js -i ./syncjobslist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -e -s https://mailcow.example.com -host1 imap.example.com
+node addSyncJobs.js -i ./syncjobslist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -e -s https://mailcow.example.com --host1 imap.example.com
 ```
 
 or if you use [precompiled binaries](https://github.com/appcoders/mailcowtools/releases):
 
 ```
-addSyncJobs-{version}-{platform} -i ./syncjobslist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -e -s https://mailcow.example.com -host1 imap.example.com
+addSyncJobs-{version}-{platform} -i ./syncjobslist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-SSSSS -e -s https://mailcow.example.com --host1 imap.example.com
 ```
 
 Use -e to stop on the first error that occurs.
