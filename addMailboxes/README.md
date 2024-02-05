@@ -45,6 +45,8 @@ addMailboxes-{version}-{platform} -i ./myimportlist -a XXXXX-ZZZZZZ-TTTTT-YYYYY-
 ```
 
 Use -e to stop on the first error that occurs.
+!! Make sure you lower the Mailcow Password Policy "System-Configuration-Options-Password Policy" cause for example if policy is set to Password Length 6 and any of the boxes are checked with special characters, accounts that are created with less 5 lowercase letters or other simple passwords are skipped and no errors will be shown. !!
+
 
 ## Using the source
 
